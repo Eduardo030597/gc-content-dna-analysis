@@ -30,16 +30,23 @@ Example DNA sequence stored in:
 
 `data/example_sequence.txt`
 
-ATGCGCGTAACCGGTT
+`ATGCGCGTAACCGGTT`
 
 The script reads the sequence from the file and computes the percentage of G and C nucleotides.
 
+### Expected Output
+
+```
+DNA sequence: ATGCGCGTAACCGGTT
+GC Content: 62.50%
+```
+
 ## How to Use
-1. Open the project folder  
+1. Clone or download the project    
 2. Make sure the file `data/example_sequence.txt` contains a DNA sequence  
 3. Run the script:
 
-   python scripts/gc_content.py
+   python3 scripts/gc_content.py
 
 4. Read the GC content result in the terminal
 
