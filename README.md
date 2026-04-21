@@ -46,7 +46,9 @@ GC Content: 62.50%
 2. Make sure the file `data/example_sequence.txt` contains a DNA sequence  
 3. Run the script:
 
-   python3 scripts/gc_content.py
+```
+python3 scripts/gc_content.py
+```
 
 4. Read the GC content result in the terminal
 
