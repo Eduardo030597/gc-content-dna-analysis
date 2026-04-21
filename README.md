@@ -9,6 +9,7 @@ GC content refers to the percentage of guanine (G) and cytosine (C) nucleotides 
 - Create a simple bioinformatics project structure in GitHub
 - Apply version control using Git and GitHub
 - Implement a Python script to calculate GC content
+- Read input data from external files
 - Document the project clearly using Markdown
 
 ## Project Structure
@@ -22,19 +23,24 @@ The main script of this project is:
 
 `scripts/gc_content.py`
 
-This script calculates the GC content of a DNA sequence.
+This script reads a DNA sequence from a file and calculates its GC content.
 
 ## Example
-Example DNA sequence:
+Example DNA sequence stored in:
 
-`ATGCGCGTAACCGGTT`
+`data/example_sequence.txt`
 
-The script computes the percentage of G and C nucleotides in the sequence.
+ATGCGCGTAACCGGTT
+
+The script reads the sequence from the file and computes the percentage of G and C nucleotides.
 
 ## How to Use
-1. Open the script `gc_content.py`
-2. Modify the variable `sample_sequence` if needed
-3. Run the script in Python
+1. Open the project folder  
+2. Make sure the file `data/example_sequence.txt` contains a DNA sequence  
+3. Run the script:
+
+   python scripts/gc_content.py
+
 4. Read the GC content result in the terminal
 
 ## Technologies Used
